@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+>
+
+    <TextView
+        android:id="@+id/textView"
+        android:alpha="0.3"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:text="@string/welcome_register"
+        android:textColor="#1E232C"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.storyapp.CustomView.MyEmail
+    android:id="@+id/etEmail"
+        android:layout_width="331dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:alpha="0.3"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#CCBBBBBB"
+        android:hint="@string/enter_email"
+        android:inputType="textPersonName"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNama" />
+
+    <com.example.storyapp.CustomView.MyName
+        android:id="@+id/etNama"
+        android:layout_width="331dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:alpha="0.3"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#CCBBBBBB"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <com.example.storyapp.CustomView.MyPassword
+        android:id="@+id/etPassword"
+        android:layout_width="331dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:alpha="0.3"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#CCBBBBBB"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEmail" />
+
+<TextView
+    android:id="@+id/textView2"
+    android:alpha="0.3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="40dp"
+    android:layout_marginTop="24dp"
+    android:text="@string/already_have_an_account"
+    android:textStyle="bold"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/btnDaftar" />
+
+<Button
+    android:id="@+id/btnLogin"
+    android:alpha="0.3"
+    android:layout_width="103dp"
+    android:layout_height="29dp"
+    android:layout_marginStart="1dp"
+    android:layout_marginTop="18dp"
+    android:background="#00733D3D"
+    android:paddingLeft="0dp"
+    android:paddingTop="0dp"
+    android:paddingRight="0dp"
+    android:paddingBottom="0dp"
+    android:text="@string/login_now"
+    android:textAllCaps="false"
+    android:textColor="#35C2C1"
+    app:layout_constraintStart_toEndOf="@+id/textView2"
+    app:layout_constraintTop_toBottomOf="@+id/btnDaftar" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDaftar"
+        android:layout_width="331dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="24dp"
+        android:alpha="0.3"
+        android:backgroundTint="#1E232C"
+        android:text="@string/register"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

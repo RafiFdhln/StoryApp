@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_login">Selamat datang kembali! Senang melihat Anda lagi.</string>
+    <string name="enter_email">Masukan email anda</string>
+    <string name="enter_password">Masukan kata sandi anda</string>
+    <string name="have_an_account">Tidak Punya Akun?</string>
+    <string name="register_now">Daftar Sekarang</string>
+    <string name="login">Masuk</string>
+    <string name="welcome_register">Halo! Daftarlah untuk memulai.</string>
+    <string name="name">Nama</string>
+    <string name="already_have_an_account">Sudah memiliki akun?</string>
+    <string name="login_now">Masuk Sekarang</string>
+    <string name="register">Daftar</string>
+    <string name="description">Deskripsi</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="upload">Unggah</string>
+    <string name="change_language">Bahasa</string>
+    <string name="logout">Keluar</string>
+</resources>
